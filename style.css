@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Lemon|Dosis|Lobster|Oleo+Script+Swash+Caps:700');
+
+body {
+	background: #00BA8B;
+	text-align: center;
+}
+
+#form  {
+	position: relative;
+	top: 50px;
+}
+
+form {
+	border: solid 1px #0E2A36;
+	padding: 15px 40px;
+	padding-bottom: 30px;
+	border-radius: 15px;
+	background: #0E2A36;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+input {
+	background: #37474F !important;
+	font-family: 'Dosis';
+	border-color: #37474F !important;
+	height: 50px !important;
+	color: #fafafa !important;
+	padding: 20px 20px;
+	letter-spacing: 2px;
+	font-size: 20px !important;
+}
+
+button {
+	margin-top: 10px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	background: #00BA8B !important;
+	height: 50px !important;
+	border-color: #00BA8B !important;
+	font-family: 'Dosis';
+	font-size: 20px !important;
+}
+
+button:hover {
+	opacity: 1;
+}
+.form-control:focus, button:focus {
+	border-color: transparent;
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+h1 {
+	font-family: 'Lobster',cursive;
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+
+h3 {
+	margin-bottom: 25px;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	color: #fafafa;
+	font-size: 30px;
+}
+
+#author {
+	font-size: 15px;
+	margin-top: 20px;
+	color: #fafafa;
+	font-family: 'Lobster', cursive;
+}
+
+#author a {
+	color: #fafafa;
+}
+
+#author a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
